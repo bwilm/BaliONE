@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="user-info">
+        <div class="header">
+            <h3>Create New Service User Account</h3>
+        <h5>Must be Indonesian resident</h5>
+        <h5>*All fields are required</h5>
+        </div>
+    <mat-form-field >
+        <input matInput placeholder="First Name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Last Name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="E-mail">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Phone Number">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="UserName">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Password" type="password">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Re-enter Password" type="password">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Address">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="License Number">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="How did you hear abourt us?">
+    </mat-form-field>
+    <button type="submit" (click)="openDialog()">CREATE ACCOUNT</button>
+    <button [routerLink]="['']">CANCEL</button>
+    </div>
+
+    <div class="profile">
+      <img src="../../assets/man.png">
+      <a>EDIT</a>
+
+    </div>
+    </div>

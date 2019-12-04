@@ -1,0 +1,25 @@
+<div class="container">
+    <video autoplay muted loop id="myVideo">
+        <source src="../../assets/171124_F1_003.mov" type="video/mp4">
+      </video>
+  <div class="heading">
+      <h1>BALI1</h1>
+  </div>
+ <div class="sub-heading">
+    <h5>YOUR ONE STOP FOR PERSONAL DRIVERS, TOURS AND MORE!</h5>
+ </div>
+ <div [ngClass] = " showing ? 'hide': 'show'" class="login-button-group">
+   <button (click)="showing = !showing" >LOGIN</button>
+   <a [routerLink]="['/newuser']">REGISTER A NEW ACCOUNT</a>
+   <a [routerLink]="['/serviceuser']">REGISTER A NEW SERVICE ACCOUNT</a>
+ </div>
+ <div [ngClass] = " showing ? 'show': 'hide'" class="button-group user-fields">
+   <label for="username">username</label>
+  <input type="text" name="username" id="username">
+  <label for="password">password</label>
+  <input type="password" name="password" id="password">
+  <button type="submit">LOGIN</button>
+  <button type="reset" (click)="showing = !showing ">CANCEL</button>
+ </div>
+
+</div>

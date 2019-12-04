@@ -1,0 +1,56 @@
+body{
+  background-color: rgba(0,0,0,.87);
+}
+
+.container {
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  border: 2px solid lightgray;
+  padding: 2em;
+  color: black;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.user-info{
+  display: flex;
+  flex-direction: column;
+}
+.container > * {
+  width: 50%;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+input{
+  color:white;
+}
+
+button{
+  width: 300px;
+  height: 50px;
+  align-self: center;
+  border-radius: 20px;
+  margin: 0.5em;
+}
+a{
+  color: white;
+}
