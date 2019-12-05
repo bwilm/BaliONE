@@ -19,6 +19,8 @@ import { MatSelectModule } from '@angular/material';
 import { ResourcesComponent } from './resources/resources.component';
 import { MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
+import { MatCardModule } from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { DialogComponent } from './dialog/dialog.component';
     FormsModule,
     MatInputModule,
     MatSelectModule,
-    MatDialogModule
+    MatDialogModule,
+    MatCardModule,
+    MatButtonModule
 
   ],
   providers: [],
