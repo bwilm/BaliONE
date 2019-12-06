@@ -92,3 +92,31 @@ label{
   align-self: center;
   color: white;
 }
+
+
+@media(max-width:676px){
+
+  h5{
+    font-size: 15px;
+  }
+}
+@media(max-width:480px){
+
+  h1{
+    font-size: 130px;
+  }
+
+  h5{
+    font-size: 12px;
+  }
+}
+@media(max-width:420px){
+
+  h1{
+    font-size: 100px;
+  }
+
+  h5{
+    font-size: 10px;
+  }
+}

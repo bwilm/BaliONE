@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="col">
+      <mat-card>
+        <mat-card-header>
+        <mat-card-title>Complete Purchase</mat-card-title>
+        <mat-card-subtitle> Your Total Is: <b style="color:yellow">35USD per day</b></mat-card-subtitle>
+        </mat-card-header>
+        <div class="picture">
+            <img class="profile" src="../../assets/driver.jpeg" alt="">
+        </div>
+        <mat-card-content>
+          <div class="credit-card">
+            <div class="card-number">
+              XXXX XXXX XXXX 3333
+            </div>
+            <div class="card-name">
+              John Smith
+              <div class="expiration">1/2050</div>
+            </div>
+          </div>
+        </mat-card-content>
+        <mat-card class="purchase">
+        <div class="list">
+            <div class="list-item">SubTotal<div class="price">125.00</div></div>
+            <div class="list-item">Booking Fee<div class="price">10.00</div></div>
+            <div class="list-item">Total<div class="price">135.00</div></div>
+        </div>
+
+      </mat-card>
+        <mat-card-actions>
+          <div class="button-group">
+            <button mat-fab color="accent" (click)="openDialog()" [routerLink]="['/purchase']">PAY</button>
+            <button mat-fab color="warn" [routerLink]="['/transportation']" >CANCEL</button>
+          </div>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <button mat-raised-button color="primary" [routerLink]="['/resources']">GO BACK</button>
+  </div>

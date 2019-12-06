@@ -1,0 +1,61 @@
+mat-card{
+  margin: 3em;
+  width: 400px;
+  border-radius: 25px;
+  align-self: center;
+}
+
+h5{
+  margin-bottom: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+div.picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+img.profile{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+img.stars{
+  height: 130px;
+  width: 130px;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+button{
+  font-size: 12px;
+}
+
+@media(max-width: 500px){
+  mat-card{
+    width: 300px;
+  }
+}
+
+
+

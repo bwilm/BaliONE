@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="col">
+    <mat-card>
+      <mat-card-header>
+      <mat-card-title>You have a new Offer!</mat-card-title>
+      <mat-card-subtitle> <b style="color:white">Louis </b>has offered you: <b style="color:yellow">35USD per day</b> for a personal driver</mat-card-subtitle>
+      </mat-card-header>
+      <div class="picture">
+          <img class="profile" src="../../assets/driver.jpeg" alt="">
+      </div>
+      <mat-card-content>
+        <h5>Driver Profile:</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, aliquid reprehenderit aliquam animi sunt rem, libero quidem mollitia nihil reiciendis veritatis, eaque dignissimos distinctio. Ab officiis maiores magni eligendi corrupti?</p>
+        <h5>Star Rating:</h5>
+        <img class="stars" src="../../assets/star.png">
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="button-group">
+          <button mat-fab color="accent" [routerLink]="['/purchase']">ACCEPT</button>
+          <button mat-fab color="primary">ON HOLD</button>
+          <button mat-fab color="warn" [routerLink]="['/transportation']" >REJECT</button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <button mat-raised-button color="primary" [routerLink]="['/resources']">GO BACK</button>
+</div>

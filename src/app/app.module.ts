@@ -14,13 +14,23 @@ import { NewUserComponent } from './new-user/new-user.component';
 import { ServiceUserComponent } from './service-user/service-user.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
-import { MatInputModule} from '@angular/material';
+import { MatInputModule, MatNativeDateModule, MatListModule} from '@angular/material';
 import { MatSelectModule } from '@angular/material';
 import { ResourcesComponent } from './resources/resources.component';
 import { MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { TransportationComponent } from './transportation/transportation.component';
+import { MultiDayDialogComponent } from './multi-day-dialog/multi-day-dialog.component';
+import { MultiDayComponent } from './multi-day/multi-day.component';
+import { PurchaseComponent } from './purchase/purchase.component';
+import { PaymentDialogComponent } from './payment-dialog/payment-dialog.component';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
+import { FileFinderComponent } from './file-finder/file-finder.component';
+
 
 
 @NgModule({
@@ -31,9 +41,15 @@ import {MatButtonModule} from '@angular/material/button';
     NewUserComponent,
     ServiceUserComponent,
     ResourcesComponent,
-    DialogComponent
+    DialogComponent,
+    TransportationComponent,
+    MultiDayDialogComponent,
+    MultiDayComponent,
+    PurchaseComponent,
+    PaymentDialogComponent,
+    FileFinderComponent
   ],
-  entryComponents:[DialogComponent],
+  entryComponents:[DialogComponent, MultiDayDialogComponent,PaymentDialogComponent,FileFinderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -49,7 +65,12 @@ import {MatButtonModule} from '@angular/material/button';
     MatSelectModule,
     MatDialogModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatBadgeModule,
+    MatBottomSheetModule,
+    MatListModule
 
   ],
   providers: [],
