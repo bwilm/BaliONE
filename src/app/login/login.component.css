@@ -128,25 +128,17 @@ label{
 @media(max-width:420px){
 
   h1{
-    color: black;
+
     font-size: 100px;
 
   }
 
   h5{
-    color: black;
+
     font-size: 10px;
 
   }
 
-  button{
-    background-color: black;
-    color: white;
-  }
-
-  a{
-    color: black;
-  }
 
   video{
     display: none;
