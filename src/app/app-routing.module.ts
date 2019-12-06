@@ -4,6 +4,9 @@ import { LoginComponent } from './login/login.component';
 import { NewUserComponent} from './new-user/new-user.component';
 import { ServiceUserComponent } from './service-user/service-user.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { TransportationComponent } from './transportation/transportation.component';
+import { MultiDayComponent } from './multi-day/multi-day.component';
+import { PurchaseComponent } from './purchase/purchase.component';
 
 
 const routes: Routes = [
@@ -11,6 +14,10 @@ const routes: Routes = [
  { path: 'newuser', component: NewUserComponent},
  { path: 'serviceuser', component: ServiceUserComponent},
  { path: 'resources', component: ResourcesComponent},
+ { path: 'transportation', component: TransportationComponent},
+ { path: 'multiday',component: MultiDayComponent},
+ { path: 'purchase',component: PurchaseComponent},
+
 ];
 
 @NgModule({

@@ -1,0 +1,142 @@
+mat-card{
+  margin: 3em;
+  width: 400px;
+  border-radius: 25px;
+  align-self: center;
+}
+
+mat-card-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h5{
+  margin-bottom: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+div.picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.credit-card{
+  width: 300px;
+  display: flex;
+  flex-direction: column ;
+  height: 180px;
+  background-color: rgba(0,0,0,.87);
+  border-radius: 25px;
+  justify-content: center;
+  align-content: center;
+
+}
+
+div.card-name{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+div.expiration{
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+div.card-number{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15px;
+  align-content: center;
+  margin-top: 75px;
+
+}
+
+img.profile{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+img.stars{
+  height: 130px;
+  width: 130px;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.purchase{
+  width: 240px;
+}
+button{
+  font-size: 12px;
+}
+
+h4{
+  text-align: center;
+  font-size: 40px;
+}
+h5{
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.list-item{
+  padding: 15px 15px 15px 0px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.list-item:nth-child(2){
+  border-bottom: 1px solid white;
+}
+
+.price{
+  display: flex;
+  margin-left: auto;
+}
+
+
+
+@media(max-width: 500px){
+  mat-card{
+    max-width: 300px;
+  }
+
+  .purchase{
+    margin: 1em;
+  }
+}
+
+
+

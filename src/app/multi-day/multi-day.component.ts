@@ -1,11 +1,11 @@
 import { Component, OnInit, ElementRef, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'app-resources',
-  templateUrl: './resources.component.html',
-  styleUrls: ['./resources.component.css']
+  selector: 'app-multi-day',
+  templateUrl: './multi-day.component.html',
+  styleUrls: ['./multi-day.component.css']
 })
-export class ResourcesComponent implements AfterViewInit {
+export class MultiDayComponent implements AfterViewInit {
 
   constructor(private elementRef: ElementRef) { }
 
