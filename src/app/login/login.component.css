@@ -129,9 +129,21 @@ label{
 
   h1{
     font-size: 100px;
+
   }
 
   h5{
     font-size: 10px;
+
   }
+
+  video{
+    display: none;
+  }
+
+
+
+
+
+
 }

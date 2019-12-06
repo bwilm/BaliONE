@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -7,15 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 
 
-export class LoginComponent implements OnInit {
+export class LoginComponent implements AfterViewInit {
 
   showing:boolean = false
 
-  constructor() {
+  constructor(private elementRef: ElementRef) {
 
   }
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit(){
+    this.elementRef.nativeElement.ownerDocument.body.style.background = "url('../../assets/login.jpg')"
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundSize = "cover"
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundRepeat = "no-repeat"
+
   }
 
 }
