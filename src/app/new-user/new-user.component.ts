@@ -10,11 +10,14 @@ import { FileFinderComponent } from '../file-finder/file-finder.component';
 })
 export class NewUserComponent implements AfterViewInit {
 
-  constructor(private elementRef: ElementRef, public dialog: MatDialog, private bottomSheet: MatBottomSheet) { }
+  color = 'primary'
+  checked = false
+
+  constructor(public dialog: MatDialog, private bottomSheet: MatBottomSheet) { }
 
 
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = 'rgba(0,0,0,.87)';
+
  }
 
  openDialog(): void {

@@ -9,13 +9,12 @@ import { MatDialog } from '@angular/material'
 })
 export class TransportationComponent implements AfterViewInit {
 
-  constructor(private elementRef: ElementRef, public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit() {
   }
 
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor='rgba(0,0,0,.87)'
   }
 
   openDialog(){

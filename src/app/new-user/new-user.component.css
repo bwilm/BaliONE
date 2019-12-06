@@ -1,27 +1,22 @@
-body{
-  background-color: rgba(0,0,0,.87);
+mat-form-field{
+  width: 100%;
 }
 
 .container {
-  margin: 2em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
   align-self: center;
-  border: 2px solid lightgray;
-  padding: 2em;
-  color: black;
-  background-color: darkslategrey;
 }
 .header{
   display: flex;
   flex-direction: column;
-  color: white;
 }
 .user-info{
   display: flex;
   flex-direction: column;
+  min-width: 300px
 }
 .container > * {
   width: 50%;
@@ -46,15 +41,24 @@ input{
 }
 
 button{
-  width: 300px;
+  min-width: 400px;
   height: 50px;
   align-self: center;
-  border-radius: 20px;
-  margin: 0.5em;
+  margin: 0.1em;
 }
-a{
-  color: white;
+
+button:first-of-type{
+  margin-top: 3em;
 }
+
+.toggle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em;
+}
+
+
 
 @media(max-width: 711px){
   img{
@@ -63,7 +67,7 @@ a{
   }
 
   button{
-    width: 200px;
+    min-width: 300px;
   }
 }
 @media(max-width: 556px){

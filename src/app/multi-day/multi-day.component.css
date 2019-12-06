@@ -3,6 +3,7 @@ mat-card{
   width: 400px;
   border-radius: 25px;
   align-self: center;
+  color: white;
 }
 
 h5{
@@ -38,8 +39,8 @@ img.profile{
 }
 
 img.stars{
-  height: 130px;
-  width: 130px;
+  height: 70px;
+  width: 70px;
 }
 
 .button-group{

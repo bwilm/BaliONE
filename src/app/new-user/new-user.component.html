@@ -9,6 +9,14 @@
           <img src="https://balione.s3.amazonaws.com/man.png">
           <a (click)="openFileFinder()">EDIT</a>
         </div>
+      <div class="toggle">
+      <button mat-flat-button
+      class="service-slide"
+      [color]="color"
+      (click)="checked = !checked" >
+      Is This a Service Account?
+      </button>
+      </div>
   <mat-form-field >
       <input matInput placeholder="First Name">
   </mat-form-field>
@@ -33,9 +41,18 @@
   <mat-form-field>
       <input matInput placeholder="Re-enter Password" type="password">
   </mat-form-field>
+  <mat-form-field *ngIf="checked">
+      <input matInput placeholder="Address">
+  </mat-form-field>
+  <mat-form-field *ngIf="checked">
+      <input matInput placeholder="License Number">
+  </mat-form-field>
+  <mat-form-field *ngIf="checked">
+      <input matInput placeholder="How did you hear abourt us?">
+  </mat-form-field>
 
-  <button type="submit" (click)="openDialog()">CREATE ACCOUNT</button>
-  <button [routerLink]="['']">CANCEL</button>
+  <button type="submit" (click)="openDialog()" mat-raised-button color="primary">CREATE ACCOUNT</button>
+  <button [routerLink]="['']" mat-raised-button color="warn">CANCEL</button>
   </div>
   </div>
 

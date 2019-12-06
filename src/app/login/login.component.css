@@ -6,6 +6,9 @@
   justify-content: center;
   align-content: center;
   font-family: 'Questrial', sans-serif;
+  background-image: url('https://balione.s3.amazonaws.com/ezgif-1-840574bc3a3d.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
@@ -140,12 +143,8 @@ label{
   }
 
 
-  video{
-    display: none;
-  }
-
   .container{
-    background-image: url('https://balione.s3.amazonaws.com/login.jpg');
+    /* background-image: url('https://balione.s3.amazonaws.com/login.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
   }

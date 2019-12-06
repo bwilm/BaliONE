@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-resources',
@@ -7,13 +7,13 @@ import { Component, OnInit, ElementRef, AfterViewInit } from '@angular/core';
 })
 export class ResourcesComponent implements AfterViewInit {
 
-  constructor(private elementRef: ElementRef) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor='rgba(0,0,0,.87)'
+
   }
 
 }

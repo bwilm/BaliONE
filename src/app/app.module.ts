@@ -11,10 +11,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { LoginComponent } from './login/login.component';
 import { NewUserComponent } from './new-user/new-user.component';
-import { ServiceUserComponent } from './service-user/service-user.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
-import { MatInputModule, MatNativeDateModule, MatListModule} from '@angular/material';
+import { MatInputModule, MatNativeDateModule, MatListModule, MatSlideToggleModule} from '@angular/material';
 import { MatSelectModule } from '@angular/material';
 import { ResourcesComponent } from './resources/resources.component';
 import { MatDialogModule} from '@angular/material/dialog';
@@ -33,13 +32,13 @@ import { FileFinderComponent } from './file-finder/file-finder.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LoginComponent,
     NewUserComponent,
-    ServiceUserComponent,
     ResourcesComponent,
     DialogComponent,
     TransportationComponent,
@@ -70,7 +69,8 @@ import { FileFinderComponent } from './file-finder/file-finder.component';
     MatNativeDateModule,
     MatBadgeModule,
     MatBottomSheetModule,
-    MatListModule
+    MatListModule,
+    MatSlideToggleModule
 
   ],
   providers: [],

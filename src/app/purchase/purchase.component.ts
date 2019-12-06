@@ -9,13 +9,13 @@ import { PaymentDialogComponent } from '../payment-dialog/payment-dialog.compone
 })
 export class PurchaseComponent implements AfterViewInit {
 
-  constructor(private elementRef: ElementRef, public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit() {
   }
 
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor='rgba(0,0,0,.87)'
+
   }
 
   openDialog(): void{
