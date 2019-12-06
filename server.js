@@ -12,7 +12,7 @@ app.listen(process.env.PORT || 8080);
 
 app.get('/*', function(req,res) {
 
-res.sendFile(path.join(__dirname+'/dist/BaliOne/index.html'));
+res.sendFile(path.join(__dirname+'/dist/index.html'));
 });
 
 console.log('listenin on port 8080')
