@@ -151,6 +151,12 @@ label{
   video{
     display: none;
   }
+
+  .container{
+    background-image: url('https://balione.s3.amazonaws.com/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 

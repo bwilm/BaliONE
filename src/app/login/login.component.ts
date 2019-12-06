@@ -19,9 +19,7 @@ export class LoginComponent implements AfterViewInit {
   }
 
   ngAfterViewInit(){
-    this.elementRef.nativeElement.ownerDocument.body.style.background = "url('../../assets/login.jpg')"
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundSize = "cover"
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundRepeat = "no-repeat"
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = "white"
 
   }
 
