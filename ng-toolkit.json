@@ -1,0 +1,13 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "BaliOne",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "BaliOne",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
