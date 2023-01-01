@@ -43,11 +43,11 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "typescript": "~3.5.3",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^5.0.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.19",
+    "@angular-devkit/build-angular": "~15.0.4",
     "@angular/common": "~8.2.14",
     "@angular/language-service": "~8.2.14",
     "@types/jasmine": "~3.3.8",
@@ -66,7 +66,7 @@
     "protractor": "~5.4.0",
     "serverless": "1.40.0",
     "serverless-apigw-binary": "^0.4.4",
-    "ts-loader": "4.2.0",
+    "ts-loader": "9.4.2",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0"
   },
